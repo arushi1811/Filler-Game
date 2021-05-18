@@ -1,0 +1,65 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background: #F6F7EB;
+}
+
+h1 {
+    font-family: 'Hammersmith One', sans-serif;
+    color: black;
+    text-align: center;
+    font-size: 10vh;
+}
+
+h2 {
+    font-family: 'Hammersmith One', sans-serif;
+    color: black;
+    text-align: center;
+    font-size: 5vh;
+}
+
+p {
+    font-family: 'Hammersmith One', sans-serif;
+    color: black;
+    text-align: center;
+    font-size: 4vh;
+}
+
+.game {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+td {
+    
+    height: 8vh;
+    width: 8vh;
+}
+
+#p1row td, #p2row td {
+    height: 5vh;
+    width: 5vh;
+
+}
+
+#p1col1, #p2col1 {
+    background: #E94F37;
+}
+
+#p1col2, #p2col2 {
+    background: #393E41;
+}
+
+#p1col3, #p2col3 {
+    background: #3F88C5;
+}
+
+#p1col4, #p2col4 {
+    background: #44BBA4;
+}
+
+#p1col5, #p2col5 {
+    background: #FFDD4A;
+}
